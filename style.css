@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;650;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: (100vw);
+    min-height: (100vh);
+    font-family: 'Nunito', Helvetica, sans-serif;
+    background: #Fff;
+}
+
+h1 {
+    color: rgb(61, 109, 116);
+    margin: 3rem;
+    text-align: center
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 100px;
+}
+
+section {
+    background-color: #a4e2e9;
+    padding: 1.5rem;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+}
+
+.input-control {
+    min-width: 100%;
+}
+
+label {
+    color: #2a5055;
+    font-size: .7rem;
+    font-weight: 600;
+    
+}
+
+input {
+    width: 100%;
+    padding: .5rem .6rem;
+    margin: .15rem 0 1rem;
+
+    background: #e1fdff;
+    color: rgb(42, 80, 85);
+    border: 1px solid transparent;
+    border-radius: .5rem;
+
+    outline: none;
+}
+
+.btn-control {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    font-family: 'Nunito';
+    font-size: 1.2rem;
+    margin-top: 1rem;
+
+    padding: .5rem .9rem;
+    background: #498C95;
+    color: white;
+
+    border: 1px solid transparent;
+    border-radius: 2rem;
+
+    outline: none;
+    cursor: pointer;
+}
+
+section.txt-section {
+    display: flex;
+    align-items: center;
+}
+
+textarea {
+    resize: none;
+    height: 100%;
+    width: 100%;
+
+    padding: .6rem;
+
+    background: #e1fdff;
+    color: rgb(42, 80, 85);
+    border: 1px solid transparent;
+    border-radius: .5rem;
+
+    outline: none;
+}
