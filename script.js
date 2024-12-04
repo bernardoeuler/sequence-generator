@@ -13,8 +13,8 @@ btn.addEventListener('click', () => {
 
     txtArea.value = ""
 
-    for (let i = start ; i <= end ; i = i + inc) {
-        if (i === end ) return txtArea.value += i
+    for (let i = start; i <= end; i = i + inc) {
+        if (i + inc > end) return txtArea.value += i
         txtArea.value += i + sep
     }
 })
